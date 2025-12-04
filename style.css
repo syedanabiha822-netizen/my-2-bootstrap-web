@@ -1,0 +1,179 @@
+.registerBtn{
+    background-color: #4CAF4F;
+    border: 1px solid #4CAF4F;
+    height: 49.49px;
+    width: 148.25px;
+    color: #fff;
+    border-radius: 2.78px;
+}
+.registerBtn:hover{
+    background-color: #4CAF4F !important;
+    color: #fff;
+}
+.navbar-nav{
+    gap: 20.71px;
+}
+.headerColor{
+    background-color: #F5F7FA;
+}
+.colorDark{
+    color: #4D4D4D;
+}
+.lesson{
+    font-size: 44.55px;
+}
+.lesson div{
+    color: #4CAF4F;
+}
+.heroRow{
+    height: 416.95px;
+}
+
+.service-card {
+  background: #ffffff;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background: #eaf7ec; 
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box img {
+  width: 35px;  
+}
+
+
+@media only screen and (max-width: 992px){
+    .navbar-nav li{
+        text-align: center;
+    }
+}
+
+
+/* ================================
+   GENERAL FIX – NO OVERFLOW
+================================ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden; /* Horizontal scroll remove */
+}
+
+/* IMG FULL RESPONSIVE */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* ================================
+   HERO SECTION RESPONSIVE
+================================ */
+.heroRow {
+  height: auto;
+  padding: 50px 0;
+}
+
+@media (max-width: 992px) {
+  .heroRow .col-7,
+  .heroRow .col-5 {
+    text-align: center;
+  }
+
+  .lesson {
+    font-size: 32px;
+  }
+}
+
+
+
+/* ================================
+   NAVBAR RESPONSIVE FIX
+================================ */
+.navbar-nav {
+  gap: 15px;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    gap: 10px;
+  }
+
+  .registerBtn {
+    width: 120px;
+    height: 45px;
+  }
+}
+
+
+
+/* ================================
+   CLIENT LOGOS ROW RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+  .clients-row img {
+    width: 60px;
+    margin: 8px;
+  }
+}
+
+
+
+/* ================================
+   3 CARDS RESPONSIVE 
+================================ */
+.service-card {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    padding: 30px 15px;
+  }
+}
+
+
+
+/* ================================
+   IMAGE + TEXT SECTIONS
+================================ */
+@media (max-width: 992px) {
+  .leftHero {
+    text-align: center;
+  }
+}
+
+
+
+/* ================================
+   FOOTER RESPONSIVE FIX
+================================ */
+footer .input-group {
+  max-width: 350px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+
+  footer .input-group {
+    margin: 0 auto;
+  }
+}
